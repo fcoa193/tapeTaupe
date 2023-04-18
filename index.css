@@ -1,0 +1,54 @@
+.game{
+    margin: auto;
+    padding: 0;
+    max-width: 800px;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+}
+.hole{
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    font-size: 4em;
+}
+.mole{
+    display: none;
+    cursor: crosshair;
+}
+.hit{
+    display: none;
+}
+.dirt{
+    cursor: grab;
+}
+.start{
+    padding: 10px;
+    font-size: 2em;
+    margin: auto;
+    display: block;
+}
+.message{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+body{
+    background-image: url(/vue/images.jpeg);
+}
+.molePic, .holePic, .smashPic{
+    width: 150px;
+    height: 150px;
+}
+.timer{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#start{
+    width: 8%;
+    margin: auto;
+}
