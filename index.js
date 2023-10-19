@@ -2,7 +2,7 @@ const game = {score:0,gameover:true,last:0,
     holes:12,ender:25};
     makeGameBoard();
     $('.game').on('click','.mole',hitMole);
-    $('#start').click(startGame);
+    $('#startGame').click(startGame);
     let time = 0;
     let timeManager;
     
@@ -30,7 +30,7 @@ const game = {score:0,gameover:true,last:0,
     // }
     
     function timing(){
-        $('#start').click();
+        $('#startGame').click();
     }
     
     function starter(){
@@ -44,7 +44,7 @@ const game = {score:0,gameover:true,last:0,
         mes();
         if(game.ender <= 0){
             game.gameover = true;
-            $('#start').show();
+            $('#startGame').show();
         }
         const timer = Math.round(Math.random()*1000)+200;
         $ele.find('.dirt').hide(0,()=>{
@@ -68,7 +68,7 @@ const game = {score:0,gameover:true,last:0,
     }
     
     function startGame(){
-        $('#start').hide();
+        $('#startGame').hide();
         game.gameover = false;
         game.score = 0;
         game.ender = 25;

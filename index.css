@@ -48,7 +48,9 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-#start{
+#startGame{
     width: 8%;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
