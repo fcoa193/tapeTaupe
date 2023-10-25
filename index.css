@@ -36,7 +36,7 @@
     margin-bottom: 30px;
 }
 body{
-    background-image: url(/vue/images.jpeg);
+    background-image: url(./vue/images.jpeg);
 }
 .molePic, .holePic, .smashPic{
     width: 150px;
