@@ -82,10 +82,10 @@ const game = {score:0,gameover:true,last:0,
            const temp = `hole${i}`;
            $div.addClass('hole').addClass(temp).appendTo('.game');
            //la mole
-           $('<div>').addClass('mole').html(`<img class='molePic' src= "/vue/mole.png">`).appendTo($div);
+           $('<div>').addClass('mole').html(`<img class='molePic' src= "./vue/mole.png">`).appendTo($div);
             //la dirt
-           $('<div>').addClass('dirt').html(`<img class='holePic' src= "/vue/hole.png">`).appendTo($div);
+           $('<div>').addClass('dirt').html(`<img class='holePic' src= "./vue/hole.png">`).appendTo($div);
             //le hit
-            $('<div>').addClass('hit').html(`<img class='smashPic' src= "/vue/smash.png">`).appendTo($div);
+            $('<div>').addClass('hit').html(`<img class='smashPic' src= "./vue/smash.png">`).appendTo($div);
         }
     }
